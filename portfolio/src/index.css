@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}
+
+.hero-padding {
+  padding-left: 17%;
+  padding-right: 10%;
+  padding-top: 7%;
+}
+
+.about-padding {
+  padding-right: 18rem;
+  padding-left: 18rem;
+}
+
+.work-padding {
+  padding-right: 20rem;
+  padding-left: 20rem;
+}
+
+.project-description {
+  height: auto;
+  margin-left: 24rem;
+  background-color: #112240;
+}
+
+.h1-main-text {
+  font-weight: 650;
+  font-size: 3.8rem;
+  line-height: 1;
+  color: #ccd6f6;
+}
+
+#hero {
+  opacity: 0;
+}
+
+.technologies-list {
+  position: absolute;
+  top: calc(60% ); /* Adjust as needed */
+  left: 100%;
+  transform: translateX(-50%);
+ text-align: right;
+}
